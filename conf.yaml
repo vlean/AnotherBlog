@@ -1,0 +1,30 @@
+#GitBlog配置文件，使用4个空格代替Tab
+---
+url: /
+title: Dolinpa
+subtitle: Another Ordinary IT Blog
+theme: simple
+enableCache: true
+highlight: true
+mathjax: true
+duoshuo:
+baiduAnalytics:
+keywords: dolinpa,vlean,php,IT
+description: >
+    Another Ordinary IT Blog, From 2016/10/19, By dolinpa
+version: 2.2
+author:
+    name: vlean
+    email: vlean@qq.com
+    github: vlean
+    weibo: _freelin
+    avatar:
+blog:
+    recentSize: 5
+    pageSize: 6
+    pageBarSize: 5
+    allBlogsForPage: false
+text:
+    title: 介绍
+    intro: >
+          Another Ordinary IT Blog, From 2016/10/19
