@@ -182,7 +182,8 @@ pre > code {
  * Site header
  */
 .site-header {
-	border-top: 5px solid #424242;
+	border-top: 5px solid transparent;
+	background: linear-gradient(white, white) padding-box, repeating-linear-gradient(-45deg, red 0, red 12.5%, transparent 0, transparent 25%, #58a 0, #58a 37.5%, transparent 0, transparent 50%) 0 / 5em 5em;
 	border-bottom: 1px solid #e8e8e8;
 	min-height: 56px;
 	position: relative;
