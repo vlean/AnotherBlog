@@ -88,5 +88,5 @@ http {
 
 
 
-## 0x04　参考
+## 0xff　参考
 > [Module ngx_http_upstream_module文档](http://nginx.org/en/docs/http/ngx_http_upstream_module.html#upstream)
