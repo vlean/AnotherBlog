@@ -64,7 +64,6 @@ http {
 `state file`指定动态配置服务器分组的配置文件,例如:
 
 > state /var/lib/nginx/state/servers.conf; # path for Linux
-> state /var/db/nginx/state/servers.conf;  # path for FreeBSD
 
 
 ## 0x02 负载方法
