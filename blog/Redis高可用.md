@@ -1,6 +1,6 @@
 <!--
 author: vlean
-date: 2016-10-19
+date: 2017-06-31
 title: Redis高可用
 tags: redis,哨兵,高可用,集群
 category: redis
@@ -50,7 +50,7 @@ masterauth **
 ###启动redis服务
 
 启动redis主从后 ，查看master的状态，看到已经有两个slave服务连接到master上。
-![Alt text](./img/1498999091337.png)
+![Alt text](/public/img/1498999091337.png)
 
 ```bash
 # Replication
@@ -95,11 +95,11 @@ sentinel parallel-syncs mymaster 1
 
 ###启动服务
 
-![Alt text](./img/1499000811195.png)
-![Alt text](./img/1499001000413.png)
+![Alt text](/public/img/1499000811195.png)
+![Alt text](/public/img/1499001000413.png)
 
 kill掉master服务后，达到down-after-milliseconds后重新启用新的master。
-![Alt text](./img/1499005571292.png)
+![Alt text](/public/img/1499005571292.png)
 
 
 
